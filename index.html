@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LA BUBU COLOMBIA – Ediciones Limitadas Kawaii</title>
+  <meta name="description" content="Compra La Bubu Coca‑Cola y coleccionables kawaii. Pago contraentrega en toda Colombia y Sistecrédito. Combos con ahorro, envíos rápidos y atención por WhatsApp." />
+  <meta name="keywords" content="La Bubu, Labubu, Coca-Cola, muñeca sorpresa, Pop Mart, kawaii, coleccionables, juguetería, Colombia, contraentrega, Sistecrédito" />
+  <link rel="canonical" href="https://tudominio.com/la-bubu" />
+  
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="LA BUBU COLOMBIA – Ediciones Limitadas Kawaii" />
+  <meta property="og:description" content="Pago contraentrega y Sistecrédito en Colombia. ¡Compra tu Bubu y combos con ahorro!" />
+  <meta property="og:image" content="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/images/meta-image.jpg" />
+  <meta property="og:url" content="https://tudominio.com/la-bubu" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></noscript>
+
+  <style>
+    :root {
+      --primary: #7B68EE;
+      --secondary: #E6E6FA;
+      --accent: #FFC0CB;
+      --hot: #FF69B4;
+      --text: #4A2E6D;
+      --muted: #8E7A9E;
+      --bg: #F8F0FF;
+      --white: #fff;
+      --ok: #2ecc71;
+      --shadow: 0 6px 18px rgba(0,0,0,.12);
+      --shadow-lg: 0 16px 40px rgba(0,0,0,.18);
+    }
+
+    @keyframes bounce {0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-10px)}60%{transform:translateY(-5px)}}
+    @keyframes pulse {0%{transform:scale(1);box-shadow:0 0 0 0 rgba(255,105,180,.6)}70%{transform:scale(1.05);box-shadow:0 0 0 12px rgba(255,105,180,0)}100%{transform:scale(1);box-shadow:0 0 0 0 rgba(255,105,180,0)}}
+    @keyframes slideR {0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+    @keyframes slideL {0%{transform:translateX(100%)}100%{transform:translateX(-100%)}}
+    @keyframes float {0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-6px) rotate(2deg)}}
+
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px}
+
+    header{background:var(--secondary);box-shadow:var(--shadow);border-bottom-left-radius:40px;border-bottom-right-radius:40px}
+    .hdr{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand h1{margin:0;font-size:2.2rem;letter-spacing:1px;color:var(--primary)}
+    nav a{color:var(--text);text-decoration:none;font-weight:600;margin:0 10px;padding:8px 14px;border-radius:18px}
+    nav a:hover{background:var(--accent);color:var(--white)}
+    .sm a{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:var(--white);box-shadow:var(--shadow);margin-left:10px}
+    .sm img,.sm i{width:20px;height:20px}
+
+    .promo{background:var(--hot);color:var(--white);text-align:center;font-weight:700;padding:12px 0;position:relative;overflow:hidden;border-top:3px dashed #fff;border-bottom:3px dashed #fff}
+    .promo .t1{animation:slideR 18s linear infinite;white-space:nowrap}
+    .promo .t2{animation:slideL 18s linear infinite;white-space:nowrap}
+
+    .hero{padding:28px 0 6px}
+    .hero .usp{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .usp .chip{background:var(--white);border:2px dashed var(--accent);border-radius:999px;padding:10px 16px;text-align:center;font-weight:700;box-shadow:var(--shadow)}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px}
+    .card{background:var(--white);border-radius:24px;border:3px solid var(--accent);padding:16px;box-shadow:var(--shadow);position:relative;overflow:hidden;transition:.25s ease}
+    .card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg)}
+    .badge{position:absolute;top:12px;left:12px;background:var(--hot);color:#fff;font-weight:800;border-radius:999px;padding:6px 12px;font-size:.9rem;z-index:2}
+    .save{position:absolute;top:10px;right:10px;background:var(--ok);color:#fff;font-weight:800;border-radius:999px;padding:8px 14px;transform:rotate(4deg);animation:float 3s ease-in-out infinite}
+    .card img{width:100%;height:auto;border-radius:18px;display:block}
+    .info h3{margin:.6rem 0 0;font-size:1.25rem}
+    .info .desc{color:var(--muted);font-size:.95rem;margin:.25rem 0 .5rem}
+    .price{font-weight:800;font-size:1.2rem}
+    .btn{display:inline-block;background:var(--hot);color:#fff;text-decoration:none;font-weight:800;border-radius:999px;padding:11px 20px;margin-top:10px;animation:pulse 2s infinite}
+    .btn:hover{filter:brightness(.95);animation:none;transform:translateY(-1px)}
+
+    .stripe{background:#2c3e50;color:#fff;text-align:center;padding:14px 0;margin:40px 0;font-weight:800}
+    .stripe .marq{animation:slideL 22s linear infinite;white-space:nowrap}
+
+    .tit{font-size:2rem;color:var(--primary);text-align:center;margin:18px 0 26px}
+
+    .slider{display:flex;gap:18px;overflow:auto;padding:6px 4px 16px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+    .slider::-webkit-scrollbar{display:none}
+    .slider .card{flex:0 0 300px}
+    .floatTag{display:inline-block;background:var(--hot);color:#fff;padding:10px 16px;border-radius:22px;box-shadow:var(--shadow);animation:bounce 2s infinite;font-weight:800}
+
+    .testis{background:var(--secondary);padding:40px 0;margin-top:12px}
+    .tgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+    .tcard{background:#fff;border-left:6px solid var(--hot);padding:18px;border-radius:14px;box-shadow:var(--shadow)}
+    .tcard p{margin:0}
+    .tcard .who{margin-top:10px;font-weight:800;color:var(--primary)}
+    .tcard .city{color:var(--muted);font-size:.95rem}
+
+    .trust{padding:40px 0}
+    .trust .grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .trust .perk{background:#fff;border-radius:16px;padding:18px;border:2px solid var(--secondary);box-shadow:var(--shadow)}
+    .perk h4{margin:0 0 6px}
+
+    .faq{max-width:900px;margin:0 auto;padding:32px 20px}
+    .faqItem{background:#fff;border-left:6px solid var(--hot);border-radius:14px;padding:16px;margin-bottom:12px;box-shadow:0 6px 14px rgba(0,0,0,.08)}
+    .faqItem h3{margin:0;cursor:pointer}
+    .faqItem p{display:none;color:var(--muted);margin:.4rem 0 0}
+    .faqItem.open p{display:block}
+
+    footer{background:var(--secondary);text-align:center;padding:20px;border-top-left-radius:40px;border-top-right-radius:40px;margin-top:34px}
+
+    @media (max-width:768px){
+      .brand h1{font-size:1.8rem}
+      nav{width:100%;text-align:center}
+      .hero .usp{grid-template-columns:1fr}
+      .floatTag{display:none}
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container hdr">
+      <div class="brand">
+        <h1>LA BUBU COLOMBIA</h1>
+        <nav>
+          <a href="#productos">Productos</a>
+          <a href="#confianza">Confianza</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+      <div class="sm">
+        <a href="https://www.instagram.com/jugueteriataiwan?igsh=MWE1Ym8zeTI4eDJnZw==" target="_blank" aria-label="Instagram">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" loading="lazy" />
+        </a>
+        <a href="https://www.tiktok.com/@jugueteria.taiwan?_t=ZS-8yi0BosxOq8&_r=1" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Promo banners -->
+  <div class="promo"><div class="t1">🎁 ENVÍO GRATIS POR COMPRAS SUPERIORES A $100.000 🚚 • CONTRAENTREGA EN TODA COLOMBIA • PAGA CON SISTECRÉDITO</div></div>
+  <div class="hero container">
+    <div class="usp">
+      <div class="chip">🚚 Contraentrega en toda Colombia</div>
+      <div class="chip">💳 Pagos con Sistecrédito</div>
+      <div class="chip">🧸 Ediciones limitadas y coleccionables</div>
+    </div>
+  </div>
+
+  <!-- Productos principales -->
+  <section id="productos" class="container" style="padding:36px 0 20px">
+    <h2 class="tit">💜🔥 La ternura viral que conquista… ¡no te quedes sin tu Bubu!</h2>
+    <div class="grid">
+      <!-- Caja Sorpresa -->
+      <article class="card">
+        <span class="badge">Nuevo</span>
+        <img src="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/images/BUBU1.jpg" alt="Caja Sorpresa Muñeca La Bubu Coca-Cola" loading="lazy" />
+        <div class="info">
+          <h3>Caja Sorpresa La Bubu Coca‑Cola</h3>
+          <p class="desc">1 Muñeca sorpresa • Diseño Coca‑Cola • Caja coleccionable</p>
+          <p class="price">$59.900</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20la%20Caja%20Sorpresa%20La%20Bubu%20Coca-Cola" target="_blank" rel="noopener">Comprar ahora</a>
+        </div>
+      </article>
+
+      <!-- Kit Bubu 2 -->
+      <article class="card">
+        <span class="save">¡Ahorra $20.000!</span>
+        <img src="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/images/BUBU2.jpg" alt="Kit Bubu 2 – Muñeca + Llavero Coca-Cola" loading="lazy" />
+        <div class="info">
+          <h3>Kit Bubu 2 – Muñeca + Llavero</h3>
+          <p class="desc">2 sorpresas en 1: Muñeca La Bubu + Llavero Coca‑Cola</p>
+          <p class="price">Precio lanzamiento: $89.900</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20el%20Kit%20Bubu%202" target="_blank" rel="noopener">Quiero mi Pack</a>
+        </div>
+      </article>
+
+      <!-- Dream Collection -->
+      <article class="card">
+        <span class="save">¡Ahorra $35.000!</span>
+        <img src="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/images/BUBU3.jpg" alt="BUBU DREAM COLLECTION – Bubu Coca-Cola + Stitch + Cry Baby" loading="lazy" />
+        <div class="info">
+          <h3>BUBU DREAM COLLECTION</h3>
+          <p class="desc">La Bubu Coca‑Cola + Stitch llavero + Cry Baby coleccionable</p>
+          <p class="price">$149.900</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20la%20Bubu%20Dream%20Collection" target="_blank" rel="noopener">¡Lo quiero ya!</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Sistecrédito -->
+  <div class="stripe"><div class="marq">🎉 COMPRA AHORA Y PAGA DESPUÉS CON SISTECRÉDITO • ENVÍOS RÁPIDOS Y SEGUROS • ATENCIÓN 24/7 POR WHATSAPP</div></div>
+
+  <!-- Otros productos (slider) -->
+  <section class="container" aria-label="Otros productos">
+    <div style="display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:10px">
+      <h2 class="tit" style="margin:0">Otros productos imperdibles</h2>
+      <span class="floatTag">🎁 Selecciona tu favorito</span>
+    </div>
+    <div class="slider" id="slider">
+      <article class="card">
+        <img src="https://raw.githubusercontent.com/JugueteriaTaiwan/La-bubu/main/images/Imagen%20de%20WhatsApp%202025-08-19%20a%20las%2009.26.56_4a96f349.jpg" alt="Muñeca La Bubu con Corazón Elástico, Luz y Sonido" loading="lazy" />
+        <div class="info">
+          <h3>La Bubu Corazón Elástico (luz y sonido)</h3>
+          <p class="desc">Pop Mart “Fall in Wild” • corazón que se estira y brilla</p>
+          <p class="price">$79.900</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20La%20Bubu%20Coraz%C3%B3n%20El%C3%A1stico" target="_blank" rel="noopener">Comprar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://raw.githubusercontent.com/JugueteriaTaiwan/La-bubu/main/images/CUADRO%20GEMA%20LA%20BUBU.jpg" alt="Cuadro de Gemas La Bubu 20x20" loading="lazy" />
+        <div class="info">
+          <h3>Cuadro de Gemas 20×20</h3>
+          <p class="desc">Incluye gemas, herramientas y lienzo • arte brillante</p>
+          <p class="price">$19.900</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20el%20Cuadro%20de%20Gemas%2020x20" target="_blank" rel="noopener">Comprar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://raw.githubusercontent.com/JugueteriaTaiwan/La-bubu/main/images/LABUBU%20CUADRO%20GEMAS%20PEQUE%C3%91A.jpg" alt="Mini cuadro de gemas La Bubu con marco" loading="lazy" />
+        <div class="info">
+          <h3>Mini Cuadro de Gemas + Marco</h3>
+          <p class="desc">Actividad antiestrés • diseños coleccionables</p>
+          <p class="price">$9.900</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20el%20Mini%20Cuadro%20de%20Gemas%20La%20Bubu" target="_blank" rel="noopener">Comprar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/images/STITCH%20SORPRESA.jpg" alt="Stitch Sorpresa – 7 modelos coleccionables" loading="lazy" />
+        <div class="info">
+          <h3>Stitch Sorpresa</h3>
+          <p class="desc">7 modelos coleccionables ¡descubre cuál te toca!</p>
+          <p class="price">$79.900</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20Stitch%20Sorpresa" target="_blank" rel="noopener">Abrir mi cajita</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/images/CRYBABY.jpg" alt="Cry Baby Sorpresa Pop Mart" loading="lazy" />
+        <div class="info">
+          <h3>Cry Baby Sorpresa (POP MART)</h3>
+          <p class="desc">6 diseños + 1 secreto • edición limitada</p>
+          <p class="price">$79.900</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20Cry%20Baby%20Sorpresa" target="_blank" rel="noopener">Comprar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu/images/BUBUROPASORPRESA%20(1).jpg" alt="Ropa sorpresa La Bubu" loading="lazy" />
+        <div class="info">
+          <h3>Ropa Sorpresa La Bubu</h3>
+          <p class="desc">¡Más de 10 looks kawaii para vestir tu Bubu!</p>
+          <p class="price">$20.000</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20Ropa%20Sorpresa%20La%20Bubu" target="_blank" rel="noopener">Comprar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/images/LABUBUVESTIDOS.jpg" alt="Bubu con vestido" loading="lazy" />
+        <div class="info">
+          <h3>Bubu con Vestido</h3>
+          <p class="desc">Diseños adorables • material suave de alta calidad</p>
+          <p class="price">$49.900</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20Bubu%20con%20Vestido" target="_blank" rel="noopener">Comprar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/images/MANOSLIBRES%20LABUBU.jpg" alt="Bolso manos libres La Bubu" loading="lazy" />
+        <div class="info">
+          <h3>Bolso Manos Libres La Bubu</h3>
+          <p class="desc">Práctico, cómodo y 100% adorable</p>
+          <p class="price">$19.900</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20el%20Bolso%20Manos%20Libres%20La%20Bubu" target="_blank" rel="noopener">Comprar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/images/SQUISHIE%20LA%20BUBU%20MINI.jpg" alt="Squishie La Bubu mini" loading="lazy" />
+        <div class="info">
+          <h3>Squishie La Bubu – Mini</h3>
+          <p class="desc">Suaves, relajantes y kawaii</p>
+          <p class="price">$7.900</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20Squishie%20La%20Bubu%20Mini" target="_blank" rel="noopener">Comprar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/images/SQUISHIES%20LA%20BUBU%20GRANDE.jpg" alt="Squishie La Bubu grande" loading="lazy" />
+        <div class="info">
+          <h3>Squishie La Bubu – Grande</h3>
+          <p class="desc">Exprime la ternura anti‑estrés</p>
+          <p class="price">$12.000</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20Squishie%20La%20Bubu%20Grande" target="_blank" rel="noopener">Comprar</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="testis" id="testimonios">
+    <div class="container">
+      <h2 class="tit">✨ Más de 100 personas nos recomiendan ✨</h2>
+      <div class="tgrid">
+        <div class="tcard">
+          <p>“¡Me encantó mi Kit Bubu 2! La muñeca y el llavero son súper lindos, y la caja es perfecta para decorar mi maletín. Llegó rapidísimo y en perfectas condiciones. ¡Ya quiero la Dream Collection!”</p>
+          <p class="who">Laura G.</p><p class="city">Bogotá</p>
+        </div>
+        <div class="tcard">
+          <p>“Compré la Bubu Dream Collection para mi hermana, y fue un hit total. Las muñecas son muy tiernas y hermosas; la calidad es increíble y el envío contraentrega fue súper cómodo.”</p>
+          <p class="who">Carlos M.</p><p class="city">Medellín</p>
+        </div>
+        <div class="tcard">
+          <p>“Al principio dudé por el precio, pero vale cada peso. La muñeca Coca‑Cola es adorable, y el llavero Stitch es mi favorito. ¡Recomendadísimo!”</p>
+          <p class="who">Sofía R.</p><p class="city">Cali</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Confianza / beneficios -->
+  <section id="confianza" class="trust container">
+    <h2 class="tit">Compra con confianza</h2>
+    <div class="grid">
+      <div class="perk">
+        <h4>Ediciones limitadas</h4>
+        <p>Diseños exclusivos con materiales de alta calidad. Ideales para fans del estilo kawaii y coleccionistas.</p>
+      </div>
+      <div class="perk">
+        <h4>Envíos seguros a todo Colombia</h4>
+        <p>Contraentrega nacional. Entregas estimadas entre 3 y 7 días hábiles según tu ciudad.</p>
+      </div>
+      <div class="perk">
+        <h4>Pagos flexibles y seguros</h4>
+        <p>Compra con Sistecrédito o pago contraentrega para mayor tranquilidad.</p>
+      </div>
+      <div class="perk">
+        <h4>Satisfacción garantizada</h4>
+        <p>Atención por WhatsApp <strong>+57 3106988465</strong> 24/7 para acompañarte en tu compra.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq">
+    <h2 class="tit">Preguntas frecuentes</h2>
+
+    <div class="faqItem">
+      <h3>¿Qué hace especial a los productos La Bubu Coca‑Cola?</h3>
+      <p>Son ediciones limitadas que combinan ternura kawaii con el icónico diseño de Coca‑Cola. Incluyen muñecas, llaveros y cajas temáticas perfectas para regalos y contenido viral.</p>
+    </div>
+
+    <div class="faqItem">
+      <h3>¿Son originales y de buena calidad?</h3>
+      <p>¡Sí! Materiales de alta calidad y acabados detallados. Las cajas son coleccionables y las piezas mantienen el estilo kawaii característico.</p>
+    </div>
+
+    <div class="faqItem">
+      <h3>¿Qué incluye cada paquete y diferencias?</h3>
+      <p><strong>Caja Sorpresa ($59.900):</strong> 1 muñeca sorpresa Coca‑Cola + caja coleccionable.</p>
+      <p><strong>Kit Bubu 2 ($89.900):</strong> 1 muñeca Coca‑Cola + 1 llavero Coca‑Cola. <em>Ahorro $20.000</em>.</p>
+      <p><strong>Dream Collection ($149.900):</strong> 1 muñeca Coca‑Cola + 1 Stitch llavero + 1 Cry Baby. <em>Ahorro $35.000</em>.</p>
+    </div>
+
+    <div class="faqItem">
+      <h3>¿Cómo y cuándo llega mi pedido?</h3>
+      <p>Envíos contraentrega a todo el país. Tiempo estimado: 3 a 7 días hábiles. Escríbenos para confirmar cobertura en tu zona.</p>
+    </div>
+  </section>
+
+  <!-- Footer / Contacto -->
+  <footer id="contacto">
+    <p>📲 WhatsApp: <a href="https://api.whatsapp.com/send?phone=573106988465&text=Hola,%20quiero%20comprar%20La%20Bubu" target="_blank" rel="noopener">+57 3106988465</a> • Instagram: <a href="https://www.instagram.com/jugueteriataiwan?igsh=MWE1Ym8zeTI4eDJnZw==" target="_blank" rel="noopener">@jugueteriataiwan</a></p>
+    <p>✉️ Digital@jugueteriataiwan.com</p>
+    <p>© 2025 LA BUBU COLOMBIA. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- FAQ toggle + slider drag -->
+  <script>
+    document.querySelectorAll('.faqItem h3').forEach(h => {
+      h.addEventListener('click', () => h.parentElement.classList.toggle('open'));
+    });
+
+    const slider = document.getElementById('slider');
+    let isDown = false, startX = 0, scrollLeft = 0;
+    slider.addEventListener('mousedown', e => {isDown = true; startX = e.pageX - slider.offsetLeft; scrollLeft = slider.scrollLeft;});
+    slider.addEventListener('mouseleave', () => isDown = false);
+    slider.addEventListener('mouseup', () => isDown = false);
+    slider.addEventListener('mousemove', e => { if(!isDown) return; e.preventDefault(); const x = e.pageX - slider.offsetLeft; const walk = (x - startX) * 2.6; slider.scrollLeft = scrollLeft - walk;});
+    slider.addEventListener('touchstart', e => {isDown = true; startX = e.touches[0].pageX - slider.offsetLeft; scrollLeft = slider.scrollLeft;},{passive:true});
+    slider.addEventListener('touchend', () => isDown = false, {passive:true});
+    slider.addEventListener('touchmove', e => { if(!isDown) return; const x = e.touches[0].pageX - slider.offsetLeft; const walk = (x - startX) * 2.6; slider.scrollLeft = scrollLeft - walk;},{passive:true});
+  </script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init','940006011380744');
+  fbq('track','PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=940006011380744&ev=PageView&noscript=1"/></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+  (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window, document, "clarity", "script", "sqplstminf");
+  </script>
+  <!-- End Clarity Code -->
+
+<!-- Botón flotante de WhatsApp -->
+<a href="https://api.whatsapp.com/send?phone=573106988465&text=¡Hola!%20Estoy%20interesado%20en%20La%20Bubu" 
+   class="whatsapp-float" target="_blank" rel="noopener">
+   <img src="https://cdn.jsdelivr.net/gh/JugueteriaTaiwan/La-bubu@main/images/whatsapp-icon.png" alt="WhatsApp">
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: transform 0.2s;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+.whatsapp-float img {
+  width: 35px;
+  height: 35px;
+}
+</style>
+
+</body>
+</html>
